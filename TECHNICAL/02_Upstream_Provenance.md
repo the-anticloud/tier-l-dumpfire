@@ -1,0 +1,28 @@
+# Upstream Provenance
+
+**Project:** `L_DUMPFIRE`  
+**Tier:** TIER_6_SECURITY_EVAL  
+**Identity:** Upstream `rapid7/metasploit-framework` @ `b3c74a8681cc` (BSD-3-Clause)
+
+## Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `rapid7/metasploit-framework` |
+| Commit | `b3c74a8681cc014ac6718f851a5d813c2fa57f7c` |
+| Upstream licence | BSD-3-Clause |
+| Licence class | permissive |
+| Clone size | 195.35 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1500.0 IIU |
+| Verified upstream edits | 1 |
+
+## Obligation
+
+`L_DUMPFIRE` is vendored under BSD-3-Clause (permissive). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+`anticloud-edits.json`; the notice of changes is at the project `NOTICE.md`.
+Where the licence class is `unknown`, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.

@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_DUMPFIRE",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "rapid7/metasploit-framework",
+  "commit": "b3c74a8681cc",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 46.98,
+      "min": 41.98,
+      "max": 51.97,
+      "all": [
+        51.97,
+        47.49,
+        41.98,
+        49.49,
+        43.98
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_DUMPFIRE (rapid7/metasploit-framework) \u2014 14988 files, 737369 source lines, licence BSD-3-Clause, primary language ['Ruby']",
+      "token_count": 44,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "dump",
+        "##fire",
+        "(",
+        "rapid",
+        "##7",
+        "/",
+        "meta",
+        "##sp",
+        "##lo",
+        "##it",
+        "-",
+        "framework",
+        ")",
+        "\u2014",
+        "149",
+        "##8",
+        "##8"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5873,
+      "classification_latency_ms": 71.97,
+      "status": "PASS"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "benchmark": "PAX_Results_Lab_Results",
+  "project": "L_DUMPFIRE",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_DUMPFIRE",
+    "slug": "rapid7/metasploit-framework",
+    "commit": "b3c74a8681cc",
+    "tracked_files": 14988,
+    "source_lines": 737369,
+    "licence": "BSD-3-Clause",
+    "size_mb": 195.35
+  },
+  "inputs_hash": "821cb542744c19a5ed761e5dc073ef216c585ef0366118d7b816ba4ce81512f2",
+  "outputs": {
+    "results_file": "TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\OFFICIAL_BENCHMARKS\\PAX_Results_Lab_Results\\results.json",
+    "results_sha256": "1a2ec1ef982d22f60227ee5180283e93f5bcdea024157f9902715a00e8f2186f"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/PAX_Results_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

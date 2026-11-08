@@ -1,0 +1,88 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e71a0b15-d18d-564f-91f0-069c35eafb5d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T21:17:55Z",
+    "component": {
+      "type": "application",
+      "name": "L_DUMPFIRE",
+      "version": "b3c74a8681cc",
+      "bom-ref": "pkg:generic/anticloud/L_DUMPFIRE@b3c74a8681cc",
+      "purl": "pkg:generic/anticloud/L_DUMPFIRE@b3c74a8681cc",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "b3c74a8681cc014ac6718f851a5d813c2fa57f7c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/rapid7/metasploit-framework.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "react",
+      "version": "19.0.0",
+      "purl": "pkg:npm/react@19.0.0",
+      "bom-ref": "npm/react@19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "19.0.0",
+      "purl": "pkg:npm/react-dom@19.0.0",
+      "bom-ref": "npm/react-dom@19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "next",
+      "version": "15.0.4",
+      "purl": "pkg:npm/next@15.0.4",
+      "bom-ref": "npm/next@15.0.4"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5",
+      "purl": "pkg:npm/typescript@^5",
+      "bom-ref": "npm/typescript@^5"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^20",
+      "purl": "pkg:npm/@types/node@^20",
+      "bom-ref": "npm/@types/node@^20"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^18",
+      "purl": "pkg:npm/@types/react@^18",
+      "bom-ref": "npm/@types/react@^18"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^18",
+      "purl": "pkg:npm/@types/react-dom@^18",
+      "bom-ref": "npm/@types/react-dom@^18"
+    }
+  ]
+}

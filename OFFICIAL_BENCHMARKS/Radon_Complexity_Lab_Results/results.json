@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_DUMPFIRE",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 4.871794871794871
+    },
+    "complexity_grade": "A",
+    "complexity_score": 4.871794871794871,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\CVE-2015-1130\\exploit.py\n    ERROR: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers (<unknown>, line 42)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\cve-2015-5287\\sosreport-rhel7.py\n    ERROR: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers (<unknown>, line 70)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\CVE-2021-3156\\nss_generic2.py\n    F 56:0 check_nscd_condition - B (10)\n    F 142:0 get_extra_chunk_count - B (9)\n    F 119:0 get_service_user_idx - B (8)\n    F 33:0 check_is_vuln - A (4)\n    F 86:0 get_libc_version - A (3)\n    F 94:0 check_libc_version - A (3)\n    F 100:0 check_libc_tcache - A (3)\n    F 191:0 execve - A (1)\n    F 199:0 lc_env - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\CVE-2021-3156\\nss_u14.py\n    F 40:0 check_nsswitch - B (10)\n    F 29:0 execve - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\CVE-2021-3156\\nss_u16.py\n    F 38:0 check_nsswitch - B",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\CVE-2015-1130\\exploit.py\n    ERROR: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers (<unknown>, line 42)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_DUMPFIRE\\UPSTREAM\\data\\exploits\\cve-2015-5287\\sosreport-rhel7.py\n    ERROR: leading zeros in de"
+  }
+}

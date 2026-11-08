@@ -1,0 +1,30 @@
+# ordered path from zero to working
+
+**Project:** `L_DUMPFIRE`  
+**Tier:** TIER_6_SECURITY_EVAL  
+**Identity:** Upstream `rapid7/metasploit-framework` @ `b3c74a8681cc` (BSD-3-Clause)
+
+## Purpose
+
+Learning paths, first steps, and safe defaults.
+
+## This project
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `rapid7/metasploit-framework` |
+| Commit | `b3c74a8681cc014ac6718f851a5d813c2fa57f7c` |
+| Upstream licence | BSD-3-Clause |
+| Licence class | permissive |
+| Clone size | 195.35 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1500.0 IIU |
+| Verified upstream edits | 1 |
+
+## Known gaps
+
+Everything above is read from an artifact. Where this document says
+`NOT YET MEASURED`, the value has not been measured for `L_DUMPFIRE` as of
+generation. Filling those in requires a run or a decision, not editing.
